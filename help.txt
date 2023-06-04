@@ -1,0 +1,9 @@
+# criar um ambiente (venv é o nome padrao para o ambiente) > $ virtualenv venv 
+# git bash (run virtualenv) > $ source venv/Scripts/activate
+# git bash (stop virtualenv) > $ deactivate
+# atualizar requirements > pip freeze > requirements.txt
+# comandos django > $ django-admin help
+# inicializar projeto django > $ django-admin startproject setup .
+# Subir servidor > $ python manage.py runserver
+# Lembrar de alterar time zone e linguagem no settings.py > LANGUAGE_CODE = 'pt-br' > TIME_ZONE = 'America/Sao Paulo'
+# instalar python-dotenv > $ pip install python-dotenv e configurar settings.py
