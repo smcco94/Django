@@ -7,4 +7,7 @@
 # Subir servidor > $ python manage.py runserver
 # Lembrar de alterar time zone e linguagem no settings.py > LANGUAGE_CODE = 'pt-br' > TIME_ZONE = 'America/Sao Paulo'
 # instalar python-dotenv > $ pip install python-dotenv e configurar settings.py
-# Subir Git
+# comandos para o manage.py > $ python manage.py help
+# comando para iniciar um app (project é a base, aplicações são apps) > $ python manage.py startapp galeria (neste caso galeria é o nome do app)
+# lembrar de adicionar novo app no settings.py
+# criar pasta templates e indicar no settings.py > 'DIRS': [os.path.join(BASE_DIR, 'templates')],
